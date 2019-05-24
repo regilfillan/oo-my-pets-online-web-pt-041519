@@ -21,7 +21,7 @@ class Owner
   end
   
 def say_species
-  owner.species
+  species
 end
   
 end
