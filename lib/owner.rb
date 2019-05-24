@@ -66,7 +66,7 @@ class Owner
   end
   
   def list_pets
-    puts @pets
+    @pets
   end
   
 end
