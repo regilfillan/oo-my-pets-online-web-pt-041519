@@ -15,4 +15,8 @@ class Owner
     @@all.length
   end
   
+  def self.reset 
+    @@all.destroy!
+  end
+  
 end
