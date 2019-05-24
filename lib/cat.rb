@@ -7,7 +7,4 @@ attr_reader :name
     @mood= "nervous"
   end
   
-  def mood
-  end
-  
 end
