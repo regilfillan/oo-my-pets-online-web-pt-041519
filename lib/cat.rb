@@ -1,8 +1,9 @@
 class Cat
-attr_accessor :name
+attr_accessor
+attr_reader :name
   
   def initialize(name)
-    @name=name.freeze
+    @name=name
     mood= "nervous"
   end
   
