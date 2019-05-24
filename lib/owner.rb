@@ -16,7 +16,7 @@ class Owner
   end
   
   def self.reset 
-    @@all.destroy!
+    @@all.clear
   end
   
 end
